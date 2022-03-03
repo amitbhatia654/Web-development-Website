@@ -1,0 +1,534 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.rightnav {
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.search {
+    padding: 3px;
+    border: 2px solid black;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 3px;
+    border: 2px solid black;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(214, 214, 226);
+    height: 100px;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 20px;
+    color: rgb(243, 16, 16);
+}
+
+.nav-list li {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.nav-list li:hover {
+    background-color: rgb(243, 157, 157);
+}
+
+.heading {
+    color: rgb(18, 6, 179);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.leftside {
+    border: 2px solid rgb(243, 6, 6);
+    border-radius: 0px;
+    width: 250px;
+    height: 330px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 8px rgb(250, 140, 140);
+}
+
+.courselist li {
+    padding: 7px;
+    list-style: none;
+}
+
+.testingbutton {
+    margin: 20px;
+    margin-left: 400px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+}
+
+.courselist {
+    padding: 4px;
+    margin: 1px;
+    font-size: 20px;
+}
+
+.name {
+    text-decoration: underline;
+    font-size: 27px;
+}
+
+.content {
+    width: 1100px;
+    height: 300px;
+    border: 5px solid;
+    margin-left: 45px;
+    margin-top: 20px;
+    border-radius: 60px;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.paying {
+    background-color: red;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.aftercontentleft {
+    width: 50%;
+    height: 400px;
+    color: rgb(25, 58, 247);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(241, 222, 213);
+}
+
+.aboutcourse li {
+    border: 1px solid black;
+    padding: 8px;
+    list-style: none;
+}
+
+.main2 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    margin-top: 60px;
+    display: flex;
+    background: linear-gradient(to left, gray, lightgray, white, yellow, turquoise);
+    ;
+}
+
+.fullstack {
+    font-size: 39px;
+}
+
+h1:before,
+h1:after {
+    color: white;
+    content: '';
+    flex: 1;
+    border-bottom: groove 2px;
+    margin: auto 0.25em;
+    box-shadow: 0 -1px;
+    /* ou 0 1px si border-style:ridge */
+}
+
+.legend-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    border: 2px solid greenyellow;
+}
+
+.fieldset-style {
+    border: 2px solid red;
+    width: 400px;
+    height: 450px;
+    font-size: 24px;
+    margin-left: 90px;
+}
+
+aftercontentright {
+    text-align: right;
+    width: 25%;
+    height: 350px;
+    border: 2px solid rgb(13, 13, 15);
+    margin-left: 150px;
+    padding: 20px;
+    padding-left: 80px;
+    border-radius: 0px 100px 0px 100px;
+    font-size: 18px;
+}
+
+.aftercontentright form {
+    padding: 6px;
+}
+
+footer {
+    background-color: rgb(241, 241, 250);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.f1 {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(252, 186, 101);
+    margin: 20px;
+    margin-left: 70px;
+    /*box-shadow: 10px 10px 8px #888888;*/
+    border-radius: 10%;
+}
+
+.f2 {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(252, 186, 101);
+    margin: 20px;
+    margin-left: 70px;
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 10%;
+}
+
+.f2 li,
+.f3 li,
+.f1 li {
+    color: blue;
+    font-size: 20px;
+}
+
+.f3 {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(252, 186, 101);
+    margin: 20px;
+    margin-left: 70px;
+    border-radius: 10%;
+}
+
+.f4 {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(35, 19, 107);
+    margin: 20px;
+}
+
+.f5 {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(22, 145, 175);
+    margin: 20px;
+    display: list-item;
+}
+
+.f1ul {
+    text-align: center;
+    padding: 10px;
+}
+
+.f1ul h2 {
+    text-decoration: underline;
+}
+
+.f1ul li {
+    text-align: center;
+    padding: 5px;
+    list-style: none;
+}
+
+.f2ul {
+    text-align: center;
+    padding: 10px;
+}
+
+.f2ul h2 {
+    text-decoration: underline;
+}
+
+.f2ul li {
+    text-align: center;
+    padding: 5px;
+}
+
+.f3ul {
+    text-align: center;
+    padding: 10px;
+}
+
+.f3ul h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.f3ul li {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
+
+.lastfooter {
+    width: 99%;
+    height: 300px;
+    margin-top: 20px;
+    background-color: rgb(30, 54, 90);
+    display: flex;
+    margin: auto;
+}
+
+.infooter {
+    width: 280px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid rgb(148, 82, 82);
+}
+
+.fa-whatsapp-square {
+    color: rgb(55, 248, 55);
+    font-size: 34px;
+}
+
+.fa-facebook {
+    color: rgb(244, 244, 248);
+}
+
+.fa-instagram {
+    color: rgb(248, 21, 21);
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.fa-linkedin {
+    color: rgb(241, 238, 248);
+}
+
+.fa-twitter-square {
+    color: white;
+    font-size: 30px;
+}
+
+#address {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.fa-envelope {
+    font-size: 30px;
+    color: rgb(224, 108, 108);
+}
+
+.fa-solid:hover {
+    font-size: 40px;
+}
+
+.infooter ul {
+    list-style: none;
+    margin-bottom: 10px;
+    color: rgb(245, 202, 147);
+    font-size: 16px;
+}
+
+.infooter1 {
+    color: aqua;
+    list-style-type: square;
+}
+
+.amit {
+    color: red;
+    font-size: 20px;
+}
+
+.amit:hover {
+    font-size: 35px;
+    color: yellow;
+}
+
+.design {
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.pictitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.box1 {
+    display: flex;
+}
+
+.box2 {
+    display: flex;
+}
+
+.b1 {
+    width: 290px;
+    height: 230px;
+    border: 1px solid rgb(89, 194, 107);
+    margin: 25px;
+}
+
+.b1 img {
+    width: 290px;
+    height: 200px;
+}
+
+.b2 img {
+    width: 290px;
+    height: 200px;
+}
+
+.b3 img {
+    width: 290px;
+    height: 200px;
+}
+
+.b4 img {
+    width: 290px;
+    height: 200px;
+}
+
+.b5 img {
+    width: 290px;
+    height: 200px;
+}
+
+.b6 img {
+    width: 290px;
+    height: 200px;
+}
+
+.b2 {
+    width: 290px;
+    height: 230px;
+    border: 1px solid rgb(89, 194, 107);
+    margin: 25px;
+}
+
+.b3 {
+    width: 290px;
+    height: 230px;
+    border: 1px solid rgb(89, 194, 107);
+    margin: 25px;
+}
+
+.b4 {
+    width: 290px;
+    height: 230px;
+    border: 1px solid rgb(89, 194, 107);
+    margin: 25px;
+}
+
+.b5 {
+    width: 290px;
+    height: 230px;
+    border: 1px solid rgb(89, 194, 107);
+    margin: 25px;
+}
+
+.b6 {
+    width: 290px;
+    height: 230px;
+    border: 1px solid rgb(89, 194, 107);
+    margin: 25px;
+}
+
+.aboutperson {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    border: 1px solid red;
+    margin-top: 70px;
+}
+
+.p1 {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.p2 {
+    height: 500px;
+    width: 700px;
+    background-color: rgb(152, 89, 252);
+}
+
+.new-class {
+    background-color: black;
+}
+
+.top-countries {
+    margin-top: 130px;
+    color: blue;
+}
+
+.contact {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(115, 56, 255);
+    transform: rotatez(-90deg);
+    margin-top: 200px;
+}
+
+.testing {
+    width: 250px;
+    height: 200px;
+    background-color: #888888;
+    margin: 20px;
+    animation-name: movement;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    text-align: center;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.testing:hover {
+    animation-play-state: paused;
+}
+
+@keyframes movement {
+    100% {
+        background-color: rgb(247, 4, 4);
+        transform: rotate(360deg);
+    }
+}
